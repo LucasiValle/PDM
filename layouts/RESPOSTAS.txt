@@ -1,0 +1,15 @@
+1. O que é um ViewGroup?
+Um ViewGroup é como um contêiner que pode conter outras Views (que são os componentes de interface, tipos de botões, textos, etc.). Ele organiza as visualizações na tela. Basicamente, é o que usamos para criar layouts mais complexos.
+
+2. O que são as constantes match_parent e wrap_content?
+match_parent faz com que uma View ocupe todo o espaço que o pai permite.
+wrap_content faz o contrário: a View vai ocupar apenas o espaço que precisa para mostrar o conteúdo.
+
+3. O que é o LinearLayout e como ele organiza seus elementos?
+O LinearLayout é um tipo de ViewGroup que organiza as Views em linha. Você pode escolher se quer ficar em uma coluna (vertical) ou em uma linha (horizontal).
+Se escolher verticalmente, os elementos ficam empilhados um em cima do outro. Se escolher horizontal, eles ficam lado a lado.
+
+4. Quais são as principais propriedades que controlam o comportamento dos elementos dentro de um LinearLayout?
+As principais propriedades são:
+layout_weight : Com isso, você pode dizer quanto espaço cada View deve ocupar em relação às outras. Por exemplo, se uma View tem layout_weight="1"e outra tem layout_weight="2", a segunda vai ocupar o dobro do espaço da primeira.
+layout_gravity : Essa propriedade ajuda a posicionar uma View dentro do espaço que foi alocado para ela. Defina como a View se comporta dentro do seu espaço pai, mas não afeta o espaço ocupado por outras Views.
